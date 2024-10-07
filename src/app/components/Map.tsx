@@ -16,7 +16,7 @@ const MapComponent = () => {
   useEffect(() => {
     const fetchGeoTIFF = async () => {
       const response = await fetch(
-        "http://localhost:3000/s3/get-geotiff-stream/collection02/level-1/standard/etm/1999/001/027/LE07_L1GT_001027_19991201_20200918_02_T2/LE07_L1GT_001027_19991201_20200918_02_T2_B1.TIF"
+        "http://localhost:3001/s3/get-geotiff-stream/collection02/level-1/standard/etm/1999/001/027/LE07_L1GT_001027_19991201_20200918_02_T2/LE07_L1GT_001027_19991201_20200918_02_T2_B1.TIF"
       ); // Replace with your API endpoint
 
       if (response.ok) {
